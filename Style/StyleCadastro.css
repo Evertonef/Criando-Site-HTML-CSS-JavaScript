@@ -1,15 +1,96 @@
-*, *:before, *:after { 
-  margin:0;
-  padding:0;
-  font-family: Arial,sans-serif;
+
+/* TAG's */
+
+body{
+    margin: 0;
+    padding:20%;
+    background-color: red;
+
 }
- 
-/* remove a linha dos links */
-a{
-  text-decoration: none;
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 10px;
+    border: 3px solid #02b5ec;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    background-color: rgba(9, 231, 247, 0.295);
+    
+    
 }
- 
-/* esconde as ancoras da tela */
-a.links{
-  display: none;
+
+input{
+    color: #d84cba;
+    background-color: hsla(49, 85%, 47%, 0.349);
+    text-align: center;
+    
 }
+
+
+
+
+label{
+    color: rgb(15, 15, 15);
+}
+
+/* ID's */
+
+
+/* CLASS's */
+
+.button_div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+     
+}
+
+.efeito{
+    /*border-radius: 10px;
+    background-color: #b11bb12d;
+    box-shadow: 5px 3px 3px #08f71ca2;
+    */
+
+    border: none;
+    color: #fa1111;
+    padding: 5px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position:relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+    box-shadow: 5px 3px 3px #ec0909;
+
+}
+
+.efeito-1{
+
+    background-color: #2600ff;
+
+}
+
+.efeito-1:before{
+content: '';
+position: absolute;
+top: 0px;
+left: 0px;
+width: 0px;
+height: 34px;
+background-color: rgba(4, 8, 245, 0.3);
+border-radius: 10px;
+transition: all 1s ease;
+}
+
+.efeito-1:hover{
+    background: #2600ff;
+    color:#2be243;
+    box-shadow: 5px 3px 3px #2be243;
+     
+}
+
