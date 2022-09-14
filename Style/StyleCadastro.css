@@ -1,23 +1,20 @@
 
 /* TAG's */
 
-body{
-    margin: 0;
-    padding:20%;
-    background-color: red;
 
-}
 
 form {
     /* Apenas para centralizar o form na página */
     margin: 0 auto;
-    width: 400px;
+    width: 500px;
     /* Para ver as bordas do formulário */
-    padding: 10px;
+    padding: 40px 40px 40px;
     border: 3px solid #02b5ec;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
     background-color: rgba(9, 231, 247, 0.295);
+    
+    
     
     
 }
@@ -26,18 +23,58 @@ input{
     color: #d84cba;
     background-color: hsla(49, 85%, 47%, 0.349);
     text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 250px;   
     
 }
 
-
+input::placeholder {
+    color: #ff00009d;
+    background-color: #e22bd300;
+    
+  }
 
 
 label{
     color: rgb(15, 15, 15);
+    display: block;
+    float: left;
+    margin: 0 auto;
+    font-family: Stencil Std, fantasy;
+    
 }
 
 /* ID's */
+#body{
+    margin: 0;
+    padding:10%;
+    background-color: #f0f8f1;
+    font-size: 20px;
+}
 
+#nome_usuario{
+    margin-left: 138px;
+}
+
+#sobrenome_usuario{
+    margin-left: 68px;
+    
+}
+
+#email_usuario{
+    
+    margin-left: 123px;
+}
+
+#senha_usuario{
+    margin-left: 129px;
+    
+}
+#repitirsenha_usuario{
+    margin-left: 24px;
+    
+}
 
 /* CLASS's */
 
@@ -45,6 +82,8 @@ label{
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
+    margin-left: 190px;
+    
      
 }
 
@@ -58,7 +97,7 @@ label{
     color: #fa1111;
     padding: 5px;
     margin: 10px;
-    font-size: 24px;
+    font-size: 15px;
     line-height: 24px;
     border-radius: 10px;
     position:relative;
@@ -71,7 +110,9 @@ label{
 
 .efeito-1{
 
-    background-color: #2600ff;
+    background-color: #48ff00;
+    font-family: Stencil Std, fantasy;
+       
 
 }
 
