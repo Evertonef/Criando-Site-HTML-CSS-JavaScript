@@ -4,24 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Style/StyleLogin.css" media="screen" > 
-    <title>Principal</title>
+    
+    <link rel="stylesheet" type="text/css" href="Style/StyleLogin.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"> 
+
+    <link rel="shortcut icon" href="img/enviar.png" sizes="42x42" type="image/png">
+    
+    <title>Login</title>
 </head>
 
-<body>
-    <form action="index.html" method="post">
-        <div>
-            <label>E-mail: </label>
-            <input type="text" id="email_login" required>
-        </div>
-        <div>
-            <label>Senha: </label>
-            <input type="password" id="senha_login" required>
-        </div>
+<body id="body">
+    <div class="container">
         
-        <div class="button">
-            <button type="submit" id="botão_login">Entrar</button>
-        </div>
-    </form>
+        <form action="index.html" method="post">
+            
+            <label>E-mail</label>
+                <input type="text" name="email_login" id="email_login" placeholder="  " required>
+            <br>
+            <label>Senha</label>
+                <input type="password" name="senha_login" id="senha_login" placeholder=" " required>
+            <br>
+            
+            <div class="button_div">
+                <button type="submit" class="efeito efeito-1" id="botão_login">Entrar</button>
+            </div>
+            <a href="Redefinicao.html" class="efeito-2" id="esqueci_senha">Esqueci a Senha</a>
+        </form>
+    </div>
+    <footer>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </footer>    
 </body>
 </html>

@@ -1,9 +1,133 @@
+/* TAG's */
 form {
   /* Apenas para centralizar o form na página */
   margin: 0 auto;
-  width: 400px;
+  width: 280px;
+  
   /* Para ver as bordas do formulário */
-  padding: 1em;
-  border: 1px solid rgb(238, 11, 11);
-  border-radius: 1em;
+  padding: 30px 10px 10px ;
+  text-align: center;
+  border: 3px solid #02b5ec;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #d83b1f;
+  background-color: rgba(9, 231, 247, 0.295);
+ 
 }
+
+
+input{
+  color: #070707;
+  background-color: hsla(49, 85%, 47%, 0.349);
+  text-align: center;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 200px; 
+  font-weight: bold;  
+  
+}
+
+input::placeholder {
+  color: #d350506c;
+  background-color: #e22bd300;
+  
+  
+}
+
+label{
+  color: rgb(15, 15, 15);
+  display: block;
+  margin: 0 auto;
+  font-family: Stencil Std, fantasy;
+  
+  
+}
+
+/* ID's */
+#body{
+  margin: 0;
+  padding:10%;
+  background-color: #67d8d8c4;
+  font-size: 20px;
+  
+}
+
+#email_login{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#senha_login{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#esqueci_senha{
+
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #faab00;
+  font-size: small;
+  text-decoration: underline overline;
+  margin-left: 60%;
+}
+
+/* CLASS's */
+
+
+.button_div{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+  
+   
+}
+
+.efeito{
+  /*border-radius: 10px;
+  background-color: #b11bb12d;
+  box-shadow: 5px 3px 3px #08f71ca2;
+  */
+
+  border: none;
+  color: #fa1111;
+  padding: 5px;
+  margin: 10px;
+  font-size: 15px;
+  line-height: 24px;
+  border-radius: 10px;
+  position:relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 400ms ease;
+  box-shadow: 5px 3px 3px #ec0909;
+
+}
+
+.efeito-1{
+
+  background-color: #48ff00;
+  font-family: Stencil Std, fantasy;
+     
+
+}
+
+
+.efeito-1:hover{
+  background: #2600ff;
+  color:#2be243;
+  box-shadow: 5px 3px 3px #2be243;
+   
+}
+.efeito-2{
+
+  background-color: #eaf8e570;
+  font-family: Stencil Std, fantasy;
+
+}
+
+.efeito-2:hover{
+  background: #2600ff;
+  color:#2be243;
+  box-shadow: 5px 3px 3px #2be243;
+   
+}
+
+

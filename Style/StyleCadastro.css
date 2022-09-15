@@ -1,8 +1,5 @@
 
 /* TAG's */
-
-
-
 form {
     /* Apenas para centralizar o form na página */
     margin: 0 auto;
@@ -13,6 +10,7 @@ form {
     border-radius: 10px;
     box-shadow: 5px 5px 5px #d83b1f;
     background-color: rgba(9, 231, 247, 0.295);
+    text-align: center;
    
 }
 
