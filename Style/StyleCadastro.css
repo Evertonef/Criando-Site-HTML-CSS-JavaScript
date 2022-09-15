@@ -1,14 +1,22 @@
 
 /* TAG's */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 form {
     /* Apenas para centralizar o form na página */
     margin: 0 auto;
-    width: 500px;
+    width: 450px;
     /* Para ver as bordas do formulário */
     padding: 30px 20px 10px ;
-    border: 3px solid #02b5ec;
+    border: 3px solid #70d1ee;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #d83b1f;
+    box-shadow: 5px 5px 5px #1f3bd8;
     background-color: rgba(9, 231, 247, 0.295);
     text-align: center;
    
@@ -36,44 +44,22 @@ input::placeholder {
 label{
     color: rgb(15, 15, 15);
     display: block;
-    float: left;
     margin: 0 auto;
-    font-family: Stencil Std, fantasy;
-    
+    font-family: Stencil Std, fantasy;  
 }
+
+
 
 /* ID's */
 #body{
     margin: 0;
-    padding:10%;
-    background-color: #67d8d8c4;
+    padding: 6%;
+    background-color: #0b54f3dc;
     font-size: 20px;
+    background-repeat:no-repeat;
     
 }
 
-#nome_usuario{
-    margin-left: 138px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-#sobrenome_usuario{
-    margin-left: 68px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-#email_usuario{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-left: 123px;
-}
-
-#senha_usuario{
-    margin-left: 129px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-#repitirsenha_usuario{
-    margin-left: 24px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
 
 /* CLASS's */
 
@@ -81,10 +67,8 @@ label{
     margin-top: 10px;
     margin-bottom: 0px;
     text-align: center;
-    margin-left: 200px;
     display: block;
-    
-     
+        
 }
 
 .efeito{
@@ -94,7 +78,7 @@ label{
     */
 
     border: none;
-    color: #fa1111;
+    color: #2600ff;
     padding: 5px;
     margin: 10px;
     font-size: 15px;
@@ -104,13 +88,13 @@ label{
     box-sizing: border-box;
     cursor: pointer;
     transition: all 400ms ease;
-    box-shadow: 5px 3px 3px #ec0909;
+    box-shadow: 5px 3px 3px #2600ff;
 
 }
 
 .efeito-1{
 
-    background-color: #48ff00;
+    background: linear-gradient(to left,#48ff00, #60f04dda);
     font-family: Stencil Std, fantasy;
        
 
@@ -118,7 +102,7 @@ label{
 
 
 .efeito-1:hover{
-    background: #2600ff;
+    background: linear-gradient(to right, #2600ff,#4c71eb);
     color:#2be243;
     box-shadow: 5px 3px 3px #2be243;
      
