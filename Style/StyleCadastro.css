@@ -8,30 +8,29 @@ form {
     margin: 0 auto;
     width: 500px;
     /* Para ver as bordas do formulário */
-    padding: 40px 40px 40px;
+    padding: 30px 20px 10px ;
     border: 3px solid #02b5ec;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px #d83b1f;
     background-color: rgba(9, 231, 247, 0.295);
-    
-    
-    
-    
+   
 }
 
 input{
-    color: #d84cba;
+    color: #070707;
     background-color: hsla(49, 85%, 47%, 0.349);
     text-align: center;
     border-radius: 10px;
     font-size: 15px;
-    width: 250px;   
+    width: 250px; 
+    font-weight: bold;  
     
 }
 
 input::placeholder {
-    color: #ff00009d;
+    color: #ff00006c;
     background-color: #e22bd300;
+    
     
   }
 
@@ -49,40 +48,43 @@ label{
 #body{
     margin: 0;
     padding:10%;
-    background-color: #f0f8f1;
+    background-color: #67d8d8c4;
     font-size: 20px;
+    
 }
 
 #nome_usuario{
     margin-left: 138px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #sobrenome_usuario{
     margin-left: 68px;
-    
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #email_usuario{
-    
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin-left: 123px;
 }
 
 #senha_usuario{
     margin-left: 129px;
-    
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 #repitirsenha_usuario{
     margin-left: 24px;
-    
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 /* CLASS's */
 
 .button_div{
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     text-align: center;
-    margin-left: 190px;
+    margin-left: 200px;
+    display: block;
     
      
 }
@@ -116,17 +118,6 @@ label{
 
 }
 
-.efeito-1:before{
-content: '';
-position: absolute;
-top: 0px;
-left: 0px;
-width: 0px;
-height: 34px;
-background-color: rgba(4, 8, 245, 0.3);
-border-radius: 10px;
-transition: all 1s ease;
-}
 
 .efeito-1:hover{
     background: #2600ff;
