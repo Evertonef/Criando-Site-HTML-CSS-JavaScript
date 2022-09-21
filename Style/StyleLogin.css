@@ -69,11 +69,33 @@ a.links{
   color: #0e0d0d;
   font-size: small;
   text-decoration: underline overline;
-  margin-left: 60%;
+  margin-left: 40%;
 }
+#cadastro{
+
+  font-family:'Times New Roman', Times, serif;
+  color: #080808;
+  font-size: medium;
+  text-decoration: overline;
+  }
 
 /* CLASS's */
 
+.container figure.avatar{
+  width: 120px;
+  height: 120px;
+  margin-left: 250px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px #7cf30d;
+}
+
+.container figure.avatar img{
+  width: 135px;
+  height: 130px;
+  position:relative;
+  margin-left: 25px;
+}
 
 .button_div{
   margin-top: 10px;
