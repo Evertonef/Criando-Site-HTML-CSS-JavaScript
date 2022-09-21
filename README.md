@@ -8,7 +8,7 @@ Repositório criado para mostrar o desenvolvimento de um site completo:
 ​			
 
 - [x] Criação das Páginas HTML
-  - [ ] Login
+  - [x] Login
   - [x] Cadastro
   - [ ] Redefinição de Senha
   - [ ] Principal
