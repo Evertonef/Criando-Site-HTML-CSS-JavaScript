@@ -50,6 +50,9 @@ label{
   
   
 }
+a.links{
+  display: none;
+}
 
 /* ID's */
 #body{

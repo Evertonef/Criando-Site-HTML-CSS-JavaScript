@@ -11,7 +11,7 @@
 form {
     /* Apenas para centralizar o form na página */
     margin: 0 auto;
-    width: 450px;
+    width: 400px;
     /* Para ver as bordas do formulário */
     padding: 30px 20px 10px ;
     border: 3px solid #70d1ee;
@@ -19,8 +19,10 @@ form {
     box-shadow: 5px 5px 5px #1f3bd8;
     background-color: rgba(9, 231, 247, 0.295);
     text-align: center;
+    
    
 }
+
 
 input{
     color: #070707;
@@ -60,8 +62,24 @@ label{
     
 }
 
-
 /* CLASS's */
+
+
+.container figure.avatar{
+    width: 100px;
+    height: 100px;
+    display:inline;
+}
+
+.container figure.avatar img{
+    width: 95px;
+    height: 95px;
+    position:absolute;
+    margin-left: 100px; 
+    margin-top: 315px;
+    border-radius: 50%;
+    box-shadow: 0 5px 4px #0df30d;   
+}
 
 .button_div{
     margin-top: 10px;
