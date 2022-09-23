@@ -7,11 +7,100 @@
  }
    
   /* remove a linha dos links */
-  a{
+a{
     text-decoration: none;
   }
    
   /* esconde as ancoras da tela */
-  a.links{
+a.links{
     display: none;
   }
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 30px 30px 30px ;
+    border: 3px solid #70d1ee;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #1f3bd8;
+    background-color: rgba(9, 231, 247, 0.295);
+    text-align: center;  
+}
+
+input{
+  color: #070707;
+  background-color: hsla(49, 85%, 47%, 0.349);
+  text-align: center;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 250px; 
+  font-weight: bold;  
+}
+
+label{
+  color: rgb(15, 15, 15);
+  display: block;
+  margin: 0 auto;
+  font-family: Stencil Std, fantasy;  
+}
+
+body{
+  margin: 0;
+  padding: 6%;
+  background-color: #0b54f3dc;
+  font-size: 20px;
+  background-repeat:no-repeat;
+  
+}
+
+/* ID's */
+
+
+/* CLASS's */
+
+.button_div_Red{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+  display: block;
+      
+}
+
+.efeito_red{
+  /*border-radius: 10px;
+  background-color: #b11bb12d;
+  box-shadow: 5px 3px 3px #08f71ca2;
+  */
+
+  border: none;
+  color: #2600ff;
+  padding: 5px;
+  margin: 10px;
+  font-size: 15px;
+  line-height: 24px;
+  border-radius: 10px;
+  position:relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 400ms ease;
+  box-shadow: 5px 3px 3px #2600ff;
+
+}
+
+.efeito-1_red{
+
+  background: linear-gradient(to left,#48ff00, #60f04dda);
+  font-family: Stencil Std, fantasy;
+     
+
+}
+
+
+.efeito-1_red:hover{
+  background: linear-gradient(to right, #2600ff,#4c71eb);
+  color:#2be243;
+  box-shadow: 5px 3px 3px #2be243;
+   
+}

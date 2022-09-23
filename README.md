@@ -10,7 +10,7 @@ Repositório criado para mostrar o desenvolvimento de um site completo:
 - [x] Criação das Páginas HTML
   - [x] Login
   - [x] Cadastro
-  - [ ] Redefinição de Senha
+  - [x] Redefinição de Senha
   - [ ] Principal
 
 - [ ] Página de Estilo CSS

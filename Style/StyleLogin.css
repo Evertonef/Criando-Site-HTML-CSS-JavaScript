@@ -11,15 +11,17 @@
 form {
   /* Apenas para centralizar o form na página */
   margin: 0 auto;
-  width: 450px;
+  width: 570px;
+  height: 400px;
 
   /* Para ver as bordas do formulário */
-  padding: 30px 10px 10px ;
+  padding: 5px 10px 10px ;
   text-align: center;
   border: 3px solid #02b5ec;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #1f3bd8;
   background-color: rgba(9, 231, 247, 0.295);
+  border-radius: 50%;
  
 }
 
@@ -57,7 +59,7 @@ a.links{
 /* ID's */
 #body{
   margin: 0;
-  padding:10%;
+  padding:8%;
   background-color: #0b54f3dc;
   font-size: 20px;
   
@@ -82,12 +84,13 @@ a.links{
 /* CLASS's */
 
 .container figure.avatar{
-  width: 120px;
-  height: 120px;
-  margin-left: 250px;
-  margin-bottom: 20px;
+  width: 110px;
+  height: 110px;
+  margin-left: 270px;
+  margin-bottom: 25px;
   border-radius: 50%;
   box-shadow: 5px 5px 5px #7cf30d;
+  position:relative;
 }
 
 .container figure.avatar img{
@@ -108,11 +111,7 @@ a.links{
 }
 
 .efeito{
-  /*border-radius: 10px;
-  background-color: #b11bb12d;
-  box-shadow: 5px 3px 3px #08f71ca2;
-  */
-
+ 
   border: none;
   color: #2600ff;
   padding: 5px;
@@ -125,6 +124,7 @@ a.links{
   cursor: pointer;
   transition: all 400ms ease;
   box-shadow: 5px 3px 3px #2600ff;
+  
 
 }
 
@@ -138,9 +138,10 @@ a.links{
 
 
 .efeito-1:hover{
-  background: linear-gradient(to right, #2600ff,#4c71eb);
-  color:#2be243;
+  background: linear-gradient(to right, #080808,#4c71eb);
+  color:#7cf30d;
   box-shadow: 5px 3px 3px #2be243;
+  border-radius: 50%;
    
 }
 .efeito-2{
@@ -154,6 +155,7 @@ a.links{
   background: linear-gradient(to right, #2600ff,#6f8ff7);
   color:#2be243;
   box-shadow: 5px 3px 3px #2be243;
+  border-radius: 50%;
    
 }
 

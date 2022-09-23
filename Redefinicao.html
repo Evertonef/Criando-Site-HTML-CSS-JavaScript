@@ -9,11 +9,34 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"> 
 
     <link rel="shortcut icon" href="img/enviar.png" sizes="42x42" type="image/png">
-    <title>Principal</title>
+    <title>Redefinição de Senha</title>
     <br>
 </head>
 
 <body>
-    
+    <div class="container" id="container">
+        <form name="red_usuario" method="post" action="">
+        <b>
+            <label>Nome: </label>
+                <input type="text" name="nome_usuarioRed" id="nome_usuarioRed" placeholder=""  autofocus required>
+                <br><br>
+            <label>Sobrenome: </label>
+            <input type="text" name="sobrenome_usuarioRed" id="sobrenome_usuarioRed" placeholder="" required>
+            <br><br>
+            <label>E-mail: </label>
+            <input type="email" name="email_usuariorRed" id="email_usuariorRed" placeholder="" required>
+            <br><br>
+            <label>Confirmar E-mail: </label>
+            <input type="email" name="email_usuariorRedConf" id="email_usuariorRedConf" placeholder="" required>
+            <div class="button_div_Red">
+                <b>
+                  <button type="submit" class="efeito_red efeito-1_red" id="salvar_cadastro"> Confirmar Solicitação </button>
+                </b>
+              </div> 
+<footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</footer>    
 </body>
+
 </html>
