@@ -1,10 +1,15 @@
-*, *:before, *:after { 
-    margin:0;
-    padding:0;
-    font-family: Arial,sans-serif;
+  /*Tag's*/
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #7159c1;
+  width: 100%;
+  height: 100%;
+
   }
-   
-  /* remove a linha dos links */
+
+/* remove a linha dos links */
   a{
     text-decoration: none;
   }
@@ -13,3 +18,91 @@
   a.links{
     display: none;
   }
+
+  header{
+    background: blue;
+    grid-area: h;
+  }
+
+  main{
+    background: red;
+    grid-area: m;
+  }
+
+  aside{
+    background: greenyellow;
+    grid-area: a;
+  }
+
+  footer{
+    background: gold;
+    grid-area: f;
+  }
+
+
+  /* Class */
+
+  .container{
+
+    display: grid;
+    grid-template-columns: 3fr  1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    /* gridgap*/
+    grid-row-gap: 2px;
+    grid-column-gap: 2px;
+    grid-template-areas: "h h"
+                        "a m"
+                        "f f"
+    
+  }
+
+  .container2{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr;
+    grid-template-rows: 10fr 10fr 10fr;
+
+    grid-gap: 5px;
+    
+    
+
+  }
+  .container2 > div{
+    background: blue;
+    width: 50%;
+    height: 50%;
+    
+  }
+  
+  .center{
+    justify-self: center;
+    align-self: center;
+  }
+
+ /*
+                              *CONTAINER*
+
+    4 alinhamento
+    justify e align
+    grid tem dois eixos X e Y:
+    eixo x é o posicionamento horizontal da Esquerda p/ Direita
+    eixo y é o posicionamento vertical de Cima p/ Baixo
+    
+    content, items e self
+    juntando com Justify e align
+    justify-content e align-content nos permite alinhar o próprio 
+    grid, relativo ao espaço fora do grid.
+
+                                 *ITENS*
+    2 alinhamento
+
+    justify-itens e align-itens nos permite alinhar os itens em nosso grid, 
+    em qualquer espaço disponivel, na célular que ele habitar.
+
+                                  *SELF*
+    justfy-self e align-self vai nos permitir alinhar o item em si.
+    se aplica diretgamento no item de um grid e não em uma célula
+    */
