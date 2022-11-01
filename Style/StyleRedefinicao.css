@@ -23,7 +23,7 @@ form {
     /* Para ver as bordas do formulário */
     padding: 30px 30px 30px ;
     border: 3px solid #70d1ee;
-    border-radius: 10px;
+    border-radius: 25%;
     box-shadow: 5px 5px 5px #1f3bd8;
     background-color: rgba(9, 231, 247, 0.295);
     text-align: center;  

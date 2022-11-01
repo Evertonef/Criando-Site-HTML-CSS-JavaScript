@@ -17,11 +17,11 @@ form {
   /* Para ver as bordas do formulário */
   padding: 5px 10px 10px ;
   text-align: center;
-  border: 3px solid #02b5ec;
+  border: 5px solid #02b5ec;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #1f3bd8;
+  box-shadow: 10px 10px 10px #1f3bd8;
   background-color: rgba(9, 231, 247, 0.295);
-  border-radius: 50%;
+  border-radius: 25%;
  
 }
 
@@ -48,9 +48,7 @@ label{
   color: rgb(15, 15, 15);
   display: block;
   margin: 0 auto;
-  font-family: Stencil Std, fantasy;
-  
-  
+  font-family: Stencil Std, fantasy;  
 }
 a.links{
   display: none;
@@ -89,7 +87,7 @@ a.links{
   margin-left: 270px;
   margin-bottom: 25px;
   border-radius: 50%;
-  box-shadow: 5px 5px 5px #7cf30d;
+  box-shadow:  5px 5px 5px #7cf30d;
   position:relative;
 }
 
